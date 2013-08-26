@@ -20,8 +20,7 @@ After you've registered the placeholder pollyfill, you can start using it. For e
 
 hello.pc
 
-```
-
+```html
 <!-- *placeholder* pollyfill is added for IE, and ignored for any other browser that supports it-->
 <input type="text" placeholder="Enter name here" data-bind="{{ model: name }}" /> 
 
